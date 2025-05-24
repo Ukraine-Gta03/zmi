@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Засоби Масової Інформації (ЗМІ) - Ваш Медіа-Портал</title>
+    <link rel="icon" href="https://placehold.co/32x32/D32F2F/ffffff?text=ЗМІ" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-satellite-dish" style="color: var(--light-red);"></i>
+                    <span class="logo-text">Світ ЗМІ</span>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Головна</a></li>
+                    <li><a href="#about-zmi" class="nav-link">Про ЗМІ</a></li>
+                    <li><a href="#statistics-zmi" class="nav-link">Статистика</a></li>
+                    <li><a href="#key-figures" class="nav-link">Ключові постаті</a></li>
+                    <li><a href="#media-departments" class="nav-link">Відділи медіа</a></li>
+                    <li><a href="#journalism-requirements" class="nav-link">Вимоги</a></li>
+                    <li><a href="#career-levels" class="nav-link">Кар'єра</a></li>
+                    <li><a href="#ukrainian-zmi" class="nav-link">ЗМІ України</a></li>
+                    <li><a href="#zmi-gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#press-center-schedule" class="nav-link">Графік роботи</a></li>
+                    <li><a href="#faq-zmi" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Засоби Масової Інформації</h1>
+            <p>Ваш надійний провідник у світі новин, аналізу та суспільної думки</p>
+            <a href="#about-zmi" class="btn pulse">Дослідити світ ЗМІ</a>
+        </div>
+    </section>
+
+    <section id="about-zmi" class="section">
+        <div class="container">
+            <h2 class="section-title">Що таке Засоби Масової Інформації?</h2>
+            <div class="card">
+                <p><strong>Засоби масової інформації (ЗМІ)</strong> — це потужний інструмент, що формує сучасний світ. Вони є системою та інструментами, призначеними для збору, обробки, зберігання та розповсюдження інформації серед необмеженого кола осіб. Від перших друкованих газет до сьогоднішніх глобальних цифрових платформ, ЗМІ постійно еволюціонували, адаптуючись до технологічних змін та потреб аудиторії.</p>
+                <p>Їхня ключова місія полягає в забезпеченні громадян актуальною, достовірною та збалансованою інформацією, що є основою для прийняття свідомих рішень та активної участі у житті суспільства. ЗМІ виступають посередниками між подіями та споживачами інформації, надаючи новини, аналітичні матеріали, розважальний контент та освітні програми.</p>
+                <p>Ефективна та відповідальна робота ЗМІ є критично важливою для функціонування демократичного суспільства, забезпечуючи інформованість громадян та функцію "четвертої влади", яка контролює дії уряду та інших інституцій.</p>
+            </div>
+            <div class="grid-3">
+                <div class="icon-box">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Достовірність</h3>
+                    <p>Надання правдивої та перевіреної інформації.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Прозорість</h3>
+                    <p>Відкритість джерел та методів збору інформації.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-users"></i>
+                    <h3>Вплив</h3>
+                    <p>Формування суспільної думки та порядку денного.</p>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <a href="#history" class="action-btn">Дізнатися про історію ЗМІ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics-zmi" class="section">
+        <div class="container">
+            <h2 class="section-title">Статистика медіа-ринку України</h2>
+            <div class="statistics">
+                <div class="stat-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3 id="mediaOrganizations" data-target="1500">0</h3>
+                    <p>Медіа-організацій</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3 id="journalistsCount" data-target="10000">0</h3>
+                    <p>Активних журналістів</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-globe"></i>
+                    <h3 id="onlineAudience" data-target="80">0%</h3>
+                    <p>Доступ до онлайн-ЗМІ</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-newspaper"></i>
+                    <h3 id="dailyNews" data-target="5000">0</h3>
+                    <p>Новинних матеріалів щодня</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="key-figures" class="section">
+        <div class="container">
+            <h2 class="section-title">Ключові постаті українських ЗМІ</h2>
+            <div class="grid-3">
+                <div class="profile-card">
+                    <img src="https://placehold.co/150x150/D32F2F/ffffff?text=Олена" alt="[Image of Журналіст 1]" onerror="this.onerror=null;this.src='https://placehold.co/150x150/D32F2F/ffffff?text=Журналіст+1';">
+                    <h3>Олена <br>Коваленко</h3>
+                    <p>Головний редактор</p>
+                    <p>Спеціалізація: Розслідування</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="https://placehold.co/150x150/263238/ffffff?text=Іван" alt="[Image of Журналіст 2]" onerror="this.onerror=null;this.src='https://placehold.co/150x150/263238/ffffff?text=Журналіст+2';">
+                    <h3>Іван <br>Петренко</h3>
+                    <p>Телеведучий</p>
+                    <p>Спеціалізація: Політичні новини</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="https://placehold.co/150x150/FFCDD2/D32F2F?text=Марія" alt="[Image of Журналіст 3]" onerror="this.onerror=null;this.src='https://placehold.co/150x150/FFCDD2/D32F2F?text=Журналіст+3';">
+                    <h3>Марія <br>Сидорова</h3>
+                    <p>Аналітик новин</p>
+                    <p>Спеціалізація: Економіка</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="media-departments" class="section">
+        <div class="container">
+            <h2 class="section-title">Основні відділи медіа-організації</h2>
+            <div class="card">
+                <p>Кожна велика медіа-організація складається з різних відділів, які забезпечують повний цикл створення та розповсюдження інформації. Нижче наведені типові відділи. Ви можете змінити їх, щоб вони відповідали вашим потребам:</p>
+            </div>
+            <div class="grid-2">
+                <div class="department-card">
+                    <i class="fas fa-bullhorn fa-3x"></i>
+                    <h3>Новинний відділ</h3>
+                    <p>Відповідає за оперативний збір, обробку та поширення новин.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Збір та верифікація інформації</li>
+                        <li><i class="fas fa-check-circle"></i> Підготовка новинних матеріалів</li>
+                        <li><i class="fas fa-check-circle"></i> Моніторинг подій</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <h3>Відділ аналітики та розслідувань</h3>
+                    <p>Займається глибоким аналізом подій та проведенням журналістських розслідувань.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Аналітичні статті та репортажі</li>
+                        <li><i class="fas fa-check-circle"></i> Викриття корупції</li>
+                        <li><i class="fas fa-check-circle"></i> Дослідження суспільних проблем</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-video fa-3x"></i>
+                    <h3>Відео- та фотопродакшн</h3>
+                    <p>Створює візуальний контент: відеорепортажі, фотографії, інфографіку.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Зйомка та монтаж</li>
+                        <li><i class="fas fa-check-circle"></i> Створення мультимедійних проектів</li>
+                        <li><i class="fas fa-check-circle"></i> Візуалізація даних</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-users-rectangle fa-3x"></i>
+                    <h3>Відділ зв'язків з громадськістю</h3>
+                    <p>Забезпечує комунікацію медіа з аудиторією, партнерами та іншими ЗМІ.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Організація прес-конференцій</li>
+                        <li><i class="fas fa-check-circle"></i> Робота з запитами ЗМІ</li>
+                        <li><i class="fas fa-check-circle"></i> Просування контенту</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journalism-requirements" class="section">
+        <div class="container">
+            <h2 class="section-title">Вимоги для роботи в ЗМІ</h2>
+            <div class="card">
+                <p>Для успішної кар'єри в сучасних Засобах Масової Інформації необхідно володіти низкою ключових навичок та якостей:</p>
+                <ul>
+                    <li><i class="fas fa-book-reader"></i> **Освіта:** Вища освіта у галузі журналістики, філології, історії, політології або суміжних спеціальностей.</li>
+                    <li><i class="fas fa-pen-nib"></i> **Письмові навички:** Досконале володіння українською мовою, вміння чітко та лаконічно викладати думки.</li>
+                    <li><i class="fas fa-microphone-alt"></i> **Комунікабельність:** Здатність встановлювати контакти, проводити інтерв'ю, працювати в команді.</li>
+                    <li><i class="fas fa-brain"></i> **Критичне мислення:** Вміння аналізувати інформацію, розрізняти факти та думки, перевіряти джерела.</li>
+                    <li><i class="fas fa-laptop-code"></i> **Цифрова грамотність:** Володіння інструментами для роботи з онлайн-контентом, соціальними мережами, базами даних.</li>
+                    <li><i class="fas fa-lightbulb"></i> **Креативність:** Здатність знаходити нові підходи до висвітлення тем, створювати цікавий контент.</li>
+                </ul>
+                <p style="margin-top: 1.5rem;">Ми шукаємо талановитих та відповідальних фахівців, готових до викликів динамічного світу ЗМІ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="career-levels" class="section">
+        <div class="container">
+            <h2 class="section-title">Кар'єрні рівні в журналістиці</h2>
+            <div class="card">
+                <p>Кар'єрний шлях у Засобах Масової Інформації може бути різноманітним, пропонуючи можливості для зростання від початківця до провідного експерта:</p>
+                <div class="grid-2">
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 1: Стажер / Молодший журналіст</li>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 2: Репортер / Кореспондент</li>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 3: Спеціальний кореспондент / Оглядач</li>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 4: Редактор відділу / Продюсер</li>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 5: Заступник головного редактора</li>
+                        <li><i class="fas fa-chevron-right"></i> Рівень 6: Головний редактор / Директор медіа</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> Додатково: Телеведучий, Радіоведучий, Медіа-аналітик, Медіа-менеджер, Фактчекер, Розслідувач.</li>
+                    </ul>
+                </div>
+                <p style="margin-top: 1.5rem;">Кожен рівень передбачає підвищену відповідальність, розширення компетенцій та нові можливості для професійного розвитку у світі ЗМІ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ukrainian-zmi" class="section">
+        <div class="container">
+            <h2 class="section-title">Провідні Засоби Масової Інформації в Україні</h2>
+            <p class="text-center" style="margin-bottom: 50px; font-size: 1.1rem; color: var(--text-dark);">Український інформаційний простір є динамічним та різноманітним, представленим широким спектром телеканалів, онлайн-видань та інформаційних агентств, що відіграють ключову роль у формуванні суспільної думки. Нижче представлені деякі з провідних ЗМІ України:</p>
+            <div class="grid-2">
+                <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/D32F2F/ffffff?text=ТСН" alt="ТСН 1+1 Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/D32F2F/ffffff?text=ТСН';">
+                        <span>ТСН (Телевізійна служба новин)</span>
+                    </div>
+                    <h3><a href="https://tsn.ua/" target="_blank">ТСН на 1+1: Лідери новинного ефіру</a></h3>
+                    <img src="https://placehold.co/400x220/D32F2F/ffffff?text=ТСН+Студія" alt="Студія ТСН" onerror="this.onerror=null;this.src='https://placehold.co/400x220/D32F2F/ffffff?text=ТСН+Студія';">
+                    <p>Телевізійна служба новин каналу "1+1" є одним з найвпливовіших та найпопулярніших інформаційних програм в Україні. ТСН славиться своїми оперативними репортажами, глибокими розслідуваннями та широким висвітленням подій у країні та світі, а також високою якістю подачі матеріалу, що відповідає сучасним журналістським стандартам.</p>
+                    <p>Завдяки постійній присутності у ключових подіях та значній аудиторії, ТСН відіграє вагому роль у формуванні суспільної думки та є надійним джерелом інформації для мільйонів українців, особливо під час важливих політичних та соціальних змін.</p>
+                </div>
+                <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/263238/ffffff?text=СУСП" alt="Суспільне Новини Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/263238/ffffff?text=СУСП';">
+                        <span>Суспільне Новини</span>
+                    </div>
+                    <h3><a href="https://suspilne.media/news/" target="_blank">Суспільне: Об'єктивність та суспільний інтерес</a></h3>
+                    <img src="https://placehold.co/400x220/263238/ffffff?text=Суспільне+Студія" alt="Студія Суспільного" onerror="this.onerror=null;this.src='https://placehold.co/400x220/263238/ffffff?text=Суспільне+Студія';">
+                    <p>Національна суспільна телерадіокомпанія України, відома як "Суспільне", є незалежним ЗМІ, що фінансується з державного бюджету і прагне до максимальної об'єктивності та неупередженості у своїй роботі. Їхня місія — служити суспільству, а не комерційним чи політичним інтересам.</p>
+                    <p>Суспільне пропонує широкий спектр новин, аналітичних програм, документальних фільмів та освітнього контенту, акцентуючи увагу на питаннях, що мають суспільну значущість та сприяють розвитку громадянського суспільства, забезпечуючи плюралізм думок та незалежну журналістику.</p>
+                </div>
+                <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/FFCDD2/D32F2F?text=УКР" alt="Укрінформ Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/FFCDD2/D32F2F?text=УКР';">
+                        <span>Укрінформ</span>
+                    </div>
+                    <h3><a href="https://www.ukrinform.ua/" target="_blank">Укрінформ: Офіційне інформаційне агентство України</a></h3>
+                    <img src="https://placehold.co/400x220/FFCDD2/D32F2F?text=Укрінформ+Офіс" alt="Офіс Укрінформ" onerror="this.onerror=null;this.src='https://placehold.co/400x220/FFCDD2/D32F2F?text=Укрінформ+Офіс';">
+                    <p>Українське національне інформаційне агентство "Укрінформ" є основним державним джерелом оперативної інформації. Воно постачає новини, фоторепортажі та аналітичні матеріали державним органам, ЗМІ та громадськості, забезпечуючи офіційне висвітлення подій з усіх регіонів України та світу.</p>
+                    <p>Укрінформ відіграє ключову роль у висвітленні подій, що відбуваються в Україні та світі, а також у представленні офіційної позиції держави, що є особливо важливим в умовах інформаційної війни та для забезпечення національної безпеки.</p>
+                </div>
+                <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/D32F2F/ffffff?text=ZAXID" alt="ZAXID.NET Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/D32F2F/ffffff?text=ZAXID';">
+                        <span>ZAXID.NET</span>
+                    </div>
+                    <h3><a href="https://zaxid.net/" target="_blank">ZAXID.NET: Регіональний вплив та якісна журналістика</a></h3>
+                    <img src="https://placehold.co/400x220/263238/ffffff?text=ZAXID.NET+Офіс" alt="Офіс ZAXID.NET" onerror="this.onerror=null;this.src='https://placehold.co/400x220/263238/ffffff?text=ZAXID.NET+Офіс';">
+                    <p>ZAXID.NET – це одне з провідних регіональних онлайн-ЗМІ України, що базується у Львові, але має значний вплив на національному рівні завдяки своїм глибоким розслідуванням та аналітичним матеріалам. Вони відомі своєю незалежністю та критичним підходом до висвітлення подій.</p>
+                    <p>Видання відоме своєю увагою до місцевих проблем, а також висвітленням загальнонаціональних та міжнародних подій, пропонуючи зважений та критичний погляд на дійсність та сприяючи розвитку якісної журналістики в регіонах, що є важливим для децентралізації інформаційного простору.</p>
+                </div>
+                 <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/263238/ffffff?text=УП" alt="Українська Правда Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/263238/ffffff?text=УП';">
+                        <span>Українська Правда</span>
+                    </div>
+                    <h3><a href="https://www.pravda.com.ua/" target="_blank">Українська Правда: Флагман онлайн-журналістики</a></h3>
+                    <img src="https://placehold.co/400x220/FFCDD2/D32F2F?text=УП+Редакція" alt="Редакція Української Правди" onerror="this.onerror=null;this.src='https://placehold.co/400x220/FFCDD2/D32F2F?text=УП+Редакція';">
+                    <p>Українська Правда — одне з найвпливовіших та найавторитетніших онлайн-видань в Україні, засноване у 2000 році. Відоме своїми розслідуваннями, аналітичними матеріалами та оперативним висвітленням політичних та суспільних подій, що часто стають основою для широких дискусій.</p>
+                    <p>Видання є одним з ключових джерел інформації для української інтелігенції та політиків, відіграючи значну роль у формуванні суспільного дискурсу та контролі за владою, підтримуючи принципи свободи слова та незалежної журналістики.</p>
+                </div>
+                <div class="news-article">
+                    <div class="source-info">
+                        <img src="https://placehold.co/35x35/D32F2F/ffffff?text=ЛІГА" alt="ЛІГА.net Лого" onerror="this.onerror=null;this.src='https://placehold.co/35x35/D32F2F/ffffff?text=ЛІГА';">
+                        <span>ЛІГА.net</span>
+                    </div>
+                    <h3><a href="https://www.liga.net/" target="_blank">ЛІГА.net: Бізнес-новини та аналітика</a></h3>
+                    <img src="https://placehold.co/400x220/263238/ffffff?text=ЛІГА.net+Офіс" alt="Офіс ЛІГА.net" onerror="this.onerror=null;this.src='https://placehold.co/400x220/263238/ffffff?text=ЛІГА.net+Офіс';">
+                    <p>ЛІГА.net — провідне українське інформаційне агентство та онлайн-видання, що спеціалізується на бізнес-новинах, економічній аналітиці та політичних подіях. Засноване у 2000 році, воно швидко здобуло репутацію надійного джерела інформації для ділової спільноти та експертів.</p>
+                    <p>Видання надає глибокий аналіз ринків, інтерв'ю з провідними експертами та оперативні новини, що робить його незамінним ресурсом для підприємців та інвесторів, а також для всіх, хто цікавиться економічним розвитком України.</p>
+                </div>
+            </div>
+            <div class="action-buttons" style="margin-top: 60px;">
+                <a href="https://detector.media/" target="_blank" class="action-btn">Більше про українські ЗМІ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="zmi-literacy" class="section">
+        <div class="container">
+            <h2 class="section-title">Медіаграмотність: Навігація в інформаційному просторі</h2>
+            <div class="card">
+                <p>У сучасному світі, переповненому інформацією, **медіаграмотність** стає ключовою навичкою. Це здатність критично оцінювати, аналізувати та створювати медіаконтент. Вона допомагає розрізняти достовірну інформацію від фейків, пропаганди та маніпуляцій.</p>
+                <ul>
+                    <li><i class="fas fa-search-plus"></i> **Перевірка джерел:** Завжди перевіряйте, хто є автором інформації та чи є джерело надійним.</li>
+                    <li><i class="fas fa-question-circle"></i> **Критичне мислення:** Ставте під сумнів інформацію, яка викликає сильні емоції або здається занадто сенсаційною.</li>
+                    <li><i class="fas fa-crosshairs"></i> **Розрізнення фактів та думок:** Вмійте відрізняти об'єктивні факти від суб'єктивних коментарів та оцінок.</li>
+                    <li><i class="fas fa-users-cog"></i> **Розуміння маніпуляцій:** Вивчайте типові прийоми дезінформації та пропаганди.</li>
+                    <li><i class="fas fa-share-square"></i> **Відповідальне поширення:** Не поширюйте інформацію, якщо ви не впевнені в її достовірності.</li>
+                </ul>
+                <p style="margin-top: 1.5rem;">Медіаграмотність — це інвестиція у ваше майбутнє та майбутнє демократичного суспільства.</p>
+            </div>
+            <div class="action-buttons">
+                <a href="https://osvita.diia.gov.ua/courses/mediagramotnist" target="_blank" class="action-btn">Курси з медіаграмотності</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="zmi-gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Галерея ЗМІ</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item single-large-photo">
+                    <img src="https://ukraine-gta.com.ua/images/pages/main/gallery/@2x/4.webp" alt="[Image of Медіа-подія, прес-конференція]" onerror="this.onerror=null;this.src='https://placehold.co/800x500/D32F2F/ffffff?text=Зображення+недоступне';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="press-center-schedule" class="section">
+        <div class="container">
+            <h2 class="section-title">Графік роботи Прес-центру</h2>
+            <div class="card">
+                <p>Наш прес-центр працює за наступним графіком, забезпечуючи оперативну взаємодію з журналістами та громадськістю:</p>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>День тижня</th>
+                            <th>Години роботи</th>
+                            <th>Обідня перерва</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Понеділок</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Вівторок</td>
+                            <td>09:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Середа</td>
+                            <td>09:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Четвер</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>П'ятниця</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Субота</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Неділя</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="margin-top: 20px;"><i class="fas fa-info-circle" style="color: var(--primary-red);"></i> Графік може змінюватися залежно від оперативної ситуації та потреб прес-центру. Рекомендуємо уточнювати інформацію за контактними телефонами.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq-zmi" class="section">
+        <div class="container">
+            <h2 class="section-title">Часті запитання про ЗМІ</h2>
+            <button class="accordion">Чому важливо довіряти перевіреним ЗМІ?</button>
+            <div class="panel">
+                <p><i class="fas fa-check-circle"></i> Перевірені ЗМІ дотримуються професійних стандартів та етики, що мінімізує ризик отримання фейкової або маніпулятивної інформації.</p>
+                <p><i class="fas fa-lightbulb"></i> Вони інвестують у журналістські розслідування, збір інформації з першоджерел та її верифікацію.</p>
+                <p><i class="fas fa-balance-scale"></i> Сприяють формуванню об'єктивного та збалансованого погляду на події та процеси у суспільстві.</p>
+            </div>
+            <button class="accordion">Як відрізнити фейкову новину від правдивої?</button>
+            <div class="panel">
+                <p><i class="fas fa-search"></i> **Перевіряйте джерело:** Чи відоме воно, чи має репутацію достовірного та незалежного ЗМІ.</p>
+                <p><i class="fas fa-question-circle"></i> **Шукайте підтвердження:** Чи згадується ця інформація в інших авторитетних ЗМІ. Якщо ні, будьте обережні.</p>
+                <p><i class="fas fa-exclamation-triangle"></i> **Звертайте увагу на емоційний тон:** Фейки часто апелюють до сильних емоцій (гнів, страх, обурення), щоб обійти критичне мислення.</p>
+                <p><i class="fas fa-camera"></i> **Аналізуйте зображення та відео:** Їх часто використовують поза контекстом, редагують або створюють за допомогою ШІ.</p>
+                <p><i class="fas fa-calendar-alt"></i> **Перевіряйте дату публікації:** Старі новини можуть бути подані як актуальні.</p>
+            </div>
+            <button class="accordion">Яку роль відіграють соціальні мережі в поширенні новин?</button>
+            <div class="panel">
+                <p><i class="fas fa-share-alt"></i> Соціальні мережі стали важливим каналом для швидкого поширення новин та інформації, дозволяючи громадянам бути в курсі подій у реальному часі.</p>
+                <p><i class="fas fa-users"></i> Вони також сприяють громадянській журналістиці та обговоренню суспільно важливих тем, створюючи платформи для прямої комунікації.</p>
+                <p><i class="fas fa-exclamation-circle"></i> Однак, через відсутність редакторського контролю, вони також є головним джерелом дезінформації, фейкових новин та маніпуляцій, що вимагає високого рівня медіаграмотності від користувачів.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts-zmi" class="section">
+        <div class="container">
+            <h2 class="section-title">Зв'яжіться з нами</h2>
+            <div class="card">
+                <p>Якщо у вас є питання або пропозиції щодо функціонування Засобів Масової Інформації, чи ви бажаєте повідомити про важливі події, будь ласка, скористайтеся нашими контактними даними. Ми завжди відкриті до діалогу та співпраці.</p>
+                <p><i class="fas fa-envelope"></i> **Електронна пошта:** <a href="mailto:info@zmi-portal.ua">info@zmi-portal.ua</a></p>
+                <p><i class="fas fa-phone"></i> **Телефон:** <a href="tel:+380441234567">+38 (044) 123-45-67</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> **Адреса офісу:** м. Київ, вул. Інформаційна, 10, 01001, Україна</p>
+                <p style="margin-top: 20px;"><i class="fas fa-info-circle" style="color: var(--primary-red);"></i> Наша команда готова відповісти на ваші запитання та надати необхідну інформацію.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Інформаційний Портал "Світ ЗМІ". Всі права захищені.</p>
+            <p>Працюємо для вільного та інформованого суспільства. <br>Слава Україні! Героям слава!</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script type="module">
+        // Функції для анімації лічильників
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Перевірка видимості елемента у viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Обробник прокрутки для анімацій лічильників та хедера
+        function handleScroll() {
+            console.log('Scrolling...');
+            const statItems = document.querySelectorAll('.stat-item'); // Тільки для лічильників
+            statItems.forEach((el) => {
+                if (isInViewport(el) && !el.classList.contains('animated-once')) {
+                    el.classList.add('animated-once'); // Позначаємо, що анімація вже відбулася
+
+                    // Активація анімації лічильників при їх появі у viewport
+                    const countElement = el.querySelector('h3');
+                    const endValue = parseInt(countElement.getAttribute('data-target'));
+                    if (!el.dataset.animated) { // Перевірка, щоб лічильник анімувався лише один раз
+                        animateValue(countElement, 0, endValue, 2000);
+                        el.dataset.animated = 'true';
+                    }
+                }
+            });
+
+            const scrollToTop = document.getElementById('scrollToTop');
+            if (window.pageYOffset > 300) {
+                scrollToTop.classList.add('visible');
+            } else {
+                scrollToTop.classList.remove('visible');
+            }
+
+            const header = document.getElementById('header');
+            if (window.pageYOffset > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            // Виділення активної секції в навігації
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('section');
+
+            let currentSection = '';
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                // Змінено поріг активації, щоб секція активувалася раніше
+                if (pageYOffset >= sectionTop - (window.innerHeight / 2)) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', handleScroll);
+        console.log('Script loaded.');
+
+        // Функціонал акордеону для FAQ
+        const acc = document.getElementsByClassName("accordion");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        // Перемикач мобільного меню
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.getElementById('nav-menu').classList.toggle('show');
+        });
+
+        document.querySelectorAll('#nav-menu .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-menu').classList.remove('show');
+            });
+        });
+
+        // Кнопка "Нагору"
+        document.getElementById('scrollToTop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
